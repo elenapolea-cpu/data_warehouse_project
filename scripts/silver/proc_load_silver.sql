@@ -191,7 +191,10 @@ BEGIN
 		PRINT '>> LOAD DURATION: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 
 		SET @start_time = GETDATE();
-		INSERT INTO bronze.erp_px_cat_g1v2 (
+		PRINT '>> Truncating Table: silver.erp_px_cat_g1v2 ';
+		TRUNCATE TABLE silver.erp_px_cat_g1v2;
+		PRINT '>> Inserting Data Into: silver.erp_px_cat_g1v2';
+		INSERT INTO silver.erp_px_cat_g1v2 (
 			id,
 			cat,
 			subcat,
