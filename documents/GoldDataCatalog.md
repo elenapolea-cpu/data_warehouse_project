@@ -1,5 +1,5 @@
 
-# ** Data Dictionary For Gold Layer**
+# **Data Dictionary For Gold Layer**
 
 ## **Overview**
 
