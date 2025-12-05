@@ -19,8 +19,8 @@ Highlights:
 */
 
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
-DROP VIEW gold.report_customers
-GO;
+DROP VIEW gold.report_customers;
+GO
 
 CREATE VIEW gold.report_customers AS
 -- Base query: Retrieves core columns from tables
