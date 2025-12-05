@@ -21,8 +21,8 @@ How to use: SELECT * FROM gold.report_products
 */
 
 IF OBJECT_ID('gold.report_products', 'V') IS NOT NULL
-DROP VIEW gold.report_products
-GO;
+DROP VIEW gold.report_products;
+GO
 
 CREATE VIEW gold.report_products AS 
 -- Base query: Retrieves core columns from tables
