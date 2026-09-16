@@ -1,7 +1,6 @@
 # Data Warehouse Project
 
-Data Warehouse and Analytics Project, step by step, using tutorial from Youtube "Data with Baraa" channel. 
-Link to the video: https://www.youtube.com/watch?v=SSKVgrwhzus&t=1389s
+Data Warehouse and Analytics Project, step by step
 
 ## 🚀 Project Requirements
 
